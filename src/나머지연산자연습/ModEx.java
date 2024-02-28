@@ -13,8 +13,10 @@ public class ModEx {
         int a = num / 100; // 100으로 나눈 몫을 구함
         int b = (num % 100) / 10; // 100으로 나눈 나머지를 구하고, 다시 10으로 나눈 몫을 구함
         int c = num % 10; // 10으로 나눈 나머지를 구함
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
+        if (a > b) {
+            System.out.println(Math.max(a, c));
+        } else {
+            System.out.println(Math.max(b, c));
+        }
     }
 }
