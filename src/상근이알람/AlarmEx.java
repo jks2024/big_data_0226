@@ -1,6 +1,5 @@
 package 상근이알람;
 import java.util.Scanner;
-// 상근이 알람 작업 완료
 
 public class AlarmEx {
     public static void main(String[] args) {
