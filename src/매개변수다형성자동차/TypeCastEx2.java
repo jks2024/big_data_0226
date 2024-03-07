@@ -1,5 +1,4 @@
 package 매개변수다형성자동차;
-
 import java.util.Scanner;
 
 public class TypeCastEx2 {
